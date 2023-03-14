@@ -1,2 +1,2 @@
 #!/bin/bash
-decimal=$(bc <<< "ibase=2; $BINARY"); echo $decimal
+echo $((2#$BINARY))
